@@ -1,0 +1,21 @@
+{
+  "name": "Gap Cutter",
+  "short_name": "Gap Cutter",
+  "description": "Cut long silences out of recordings and speed up speech without changing pitch.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0f1014",
+  "theme_color": "#0f1014",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "file_handlers": [
+    {
+      "action": "./index.html",
+      "accept": { "audio/*": [".mp3", ".wav", ".m4a", ".ogg", ".flac", ".aac", ".opus"] }
+    }
+  ]
+}
